@@ -1,0 +1,14 @@
+H:\Hotel_Registration\Blayer\bin\Debug\Blayer.dll
+H:\Hotel_Registration\Blayer\bin\Debug\Blayer.pdb
+H:\Hotel_Registration\Blayer\bin\Debug\Dlayer.dll
+H:\Hotel_Registration\Blayer\bin\Debug\Olayer.dll
+H:\Hotel_Registration\Blayer\bin\Debug\Dapper.dll
+H:\Hotel_Registration\Blayer\bin\Debug\Newtonsoft.Json.dll
+H:\Hotel_Registration\Blayer\bin\Debug\Dlayer.pdb
+H:\Hotel_Registration\Blayer\bin\Debug\Olayer.pdb
+H:\Hotel_Registration\Blayer\bin\Debug\Dapper.pdb
+H:\Hotel_Registration\Blayer\bin\Debug\Dapper.xml
+H:\Hotel_Registration\Blayer\bin\Debug\Newtonsoft.Json.xml
+H:\Hotel_Registration\Blayer\obj\Debug\Blayer.csprojResolveAssemblyReference.cache
+H:\Hotel_Registration\Blayer\obj\Debug\Blayer.dll
+H:\Hotel_Registration\Blayer\obj\Debug\Blayer.pdb

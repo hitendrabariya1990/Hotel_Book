@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Hotel_Book", "Hotel\Hotel_Book\", "{84EDF932-E35C-4ECF-B9A2-27F1D409751B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{65f9115c-983a-450a-8be3-4435b6f971c1}|Blayer.dll;{2cb67050-7102-42f1-b27c-68348aed7af9}|Dlayer.dll;{a9701d8b-385c-4e1b-a47d-26b0a99e5321}|Olayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_43065"
+		Debug.AspNetCompiler.PhysicalPath = "Hotel\Hotel_Book\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43065\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_43065"
+		Release.AspNetCompiler.PhysicalPath = "Hotel\Hotel_Book\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43065\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "43065"
+		SlnRelativePath = "Hotel\Hotel_Book\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blayer", "Blayer\Blayer.csproj", "{65F9115C-983A-450A-8BE3-4435B6F971C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dlayer", "Dlayer\Dlayer.csproj", "{2CB67050-7102-42F1-B27C-68348AED7AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olayer", "Olayer\Olayer.csproj", "{A9701D8B-385C-4E1B-A47D-26B0A99E5321}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84EDF932-E35C-4ECF-B9A2-27F1D409751B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EDF932-E35C-4ECF-B9A2-27F1D409751B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EDF932-E35C-4ECF-B9A2-27F1D409751B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EDF932-E35C-4ECF-B9A2-27F1D409751B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{65F9115C-983A-450A-8BE3-4435B6F971C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F9115C-983A-450A-8BE3-4435B6F971C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F9115C-983A-450A-8BE3-4435B6F971C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F9115C-983A-450A-8BE3-4435B6F971C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB67050-7102-42F1-B27C-68348AED7AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB67050-7102-42F1-B27C-68348AED7AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB67050-7102-42F1-B27C-68348AED7AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB67050-7102-42F1-B27C-68348AED7AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9701D8B-385C-4E1B-A47D-26B0A99E5321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9701D8B-385C-4E1B-A47D-26B0A99E5321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9701D8B-385C-4E1B-A47D-26B0A99E5321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9701D8B-385C-4E1B-A47D-26B0A99E5321}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
