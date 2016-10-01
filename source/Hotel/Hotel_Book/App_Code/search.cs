@@ -11,44 +11,29 @@ using Blayer;
 using Olayer;
 using HotelBooking.Olayer;
 using Newtonsoft.Json;
+using System.Collections;
+
 /// <summary>
-/// Summary description for country
+/// Summary description for search
 /// </summary>
 [WebService(Namespace = "http://tempuri.org/")]
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
 [System.Web.Script.Services.ScriptService]
-public class country : System.Web.Services.WebService
+public class search : System.Web.Services.WebService
 {
-    //public country()
-    //{
 
-    //    //Uncomment the following line if using designed components 
-    //    //InitializeComponent(); 
-    //}
+    public search()
+    {
+
+        //Uncomment the following line if using designed components 
+        //InitializeComponent(); 
+    }
 
     [WebMethod]
     public string HelloWorld()
     {
         return "Hello World";
-    }
-
-    [WebMethod]
-    public List<BindCountryResponse> GetCountry()
-    {
-        List<BindCountryResponse> objGetCountry = new List<BindCountryResponse>();
-        CountryBl objcon = new CountryBl();
-        objGetCountry = objcon.GetCountry();
-        return objGetCountry;
-
-    }
-    [WebMethod]
-    public List<BindCityResponse> GetAllCity(string countryName)
-    {
-        List<BindCityResponse> objgetcity = new List<BindCityResponse>();
-        CountryBl objcon = new CountryBl();
-        objgetcity = objcon.GetAllCity(countryName);
-        return objgetcity;
     }
     [WebMethod]
     public List<HotelSearchResponse> GetSearchResult(HotelSearchRequest hotreq)
@@ -77,9 +62,12 @@ public class country : System.Web.Services.WebService
         var sr = new StreamReader(stream);
         var content = sr.ReadToEnd();
 
-        List<HotelSearchResponse> hotelsearchResp = new List<HotelSearchResponse>();
-        hotelsearchResp = JsonConvert.DeserializeObject<List<HotelSearchResponse>>(content);
-        return hotelsearchResp;
+        HotelSearchResponse hotelsearchResp =new  HotelSearchResponse();
+        List<HotelSearchResponse> ht = new List<HotelSearchResponse>();
+        hotelsearchResp = JsonConvert.DeserializeObject<HotelSearchResponse>(content);
+        ht.Add(hotelsearchResp);
+        return ht.ToList();
 
     }
+
 }
